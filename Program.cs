@@ -14,7 +14,7 @@ namespace scorekeeper
             int caseSwitch = Convert.ToInt16(Console.ReadLine()) ;
             switch(caseSwitch){
                 case 1: 
-                    Console.WriteLine("You have choosen squash, two players first to 15!\nGive your game a name");
+                    Console.WriteLine("You have choosen squash.\nGive your game a name");
                     string gameTitle = Console.ReadLine();
                     NewGame("Squash", gameTitle);
                 break;
@@ -63,7 +63,7 @@ namespace scorekeeper
                     default:
                     break;
                 }
-
+                //demonstrating getting the score after each point won.
                 Console.WriteLine($"Current score\n{runningGame.playerOne}:\t{runningGame.playerOneScore}\n{runningGame.playerTwo}:\t{runningGame.playerTwoScore}");
             }
             Console.WriteLine("Write your result to the leaderboard?");
