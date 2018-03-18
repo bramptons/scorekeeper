@@ -8,3 +8,14 @@ C:\Users\Abraham.Glover\Projects\scorekeeper\obj\Debug\netcoreapp2.0\scorekeeper
 C:\Users\Abraham.Glover\Projects\scorekeeper\obj\Debug\netcoreapp2.0\scorekeeper.AssemblyInfo.cs
 C:\Users\Abraham.Glover\Projects\scorekeeper\obj\Debug\netcoreapp2.0\scorekeeper.dll
 C:\Users\Abraham.Glover\Projects\scorekeeper\obj\Debug\netcoreapp2.0\scorekeeper.pdb
+C:\Users\abesp\Source\Repos\scorekeeper\obj\Debug\netcoreapp2.0\scorekeeper.csproj.CoreCompileInputs.cache
+C:\Users\abesp\Source\Repos\scorekeeper\obj\Debug\netcoreapp2.0\scorekeeper.AssemblyInfoInputs.cache
+C:\Users\abesp\Source\Repos\scorekeeper\obj\Debug\netcoreapp2.0\scorekeeper.AssemblyInfo.cs
+C:\Users\abesp\Source\Repos\scorekeeper\bin\Debug\netcoreapp2.0\scorekeeper.deps.json
+C:\Users\abesp\Source\Repos\scorekeeper\bin\Debug\netcoreapp2.0\scorekeeper.runtimeconfig.json
+C:\Users\abesp\Source\Repos\scorekeeper\bin\Debug\netcoreapp2.0\scorekeeper.runtimeconfig.dev.json
+C:\Users\abesp\Source\Repos\scorekeeper\bin\Debug\netcoreapp2.0\scorekeeper.dll
+C:\Users\abesp\Source\Repos\scorekeeper\bin\Debug\netcoreapp2.0\scorekeeper.pdb
+C:\Users\abesp\Source\Repos\scorekeeper\obj\Debug\netcoreapp2.0\scorekeeper.csprojResolveAssemblyReference.cache
+C:\Users\abesp\Source\Repos\scorekeeper\obj\Debug\netcoreapp2.0\scorekeeper.dll
+C:\Users\abesp\Source\Repos\scorekeeper\obj\Debug\netcoreapp2.0\scorekeeper.pdb
