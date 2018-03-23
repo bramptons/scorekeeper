@@ -26,10 +26,8 @@ namespace scorekeeper
                 else
                 clrPoints = false;
                 break;
-            }
-            
+            }            
         }
-
         //create separate methods for textual ackonlwedgement of score informing in a human manner
         public void WinPoint(string won)
         {
@@ -39,12 +37,19 @@ namespace scorekeeper
                 ClearPoints();
             }
             else{
-                playerTwoScore++;
-                /*if(playerTwoScore == winningScore){
-                    status = true;
-                    Console.WriteLine(playerTwo + " Wins!");
-                }*/
+                playerTwoScore++;                
                 ClearPoints();
+            }
+        }
+        
+        public void LosePoint(string lost)
+        {
+            if(lost == playerOne)
+            {
+                playerOneScore--;
+            }
+            else{
+                playerTwoScore--;
             }
         }
         private void ClearPoints()
@@ -67,10 +72,8 @@ namespace scorekeeper
                             status = true;                            
                             Console.WriteLine(string.Format(winner, playerTwo, playerTwoScore, playerOneScore, playerOne));
                         }
-                        else
-                        {
-                            Console.WriteLine("You have to win by two clear points, keep it up!");
-                        }
+                        else                        
+                            Console.WriteLine("You have to win by two clear points, keep it up!");                        
                     }
                 }                
             }
