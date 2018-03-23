@@ -49,7 +49,8 @@ namespace scorekeeper
         {
             
             while(runningGame.status == false){
-                Console.WriteLine($"Who won the point?\n{runningGame.playerOne} enter: A\n{runningGame.playerTwo} enter: B\n");
+                Console.WriteLine($"Who won the point?\n{runningGame.playerOne} enter: A\n{runningGame.playerTwo} enter: B");
+                Console.WriteLine($"Or who lost a point?\n{runningGame.playerOne} enter: C\n{runningGame.playerTwo} enter: D\n");
                 
                 char pointWon = Convert.ToChar(Console.ReadLine());
                 switch(pointWon){
@@ -60,6 +61,12 @@ namespace scorekeeper
                     case 'B':
                         runningGame.WinPoint(runningGame.playerTwo);
                     break;
+                    case 'C':
+                        runningGame.LosePoint(runningGame.playerOne);
+                        break;
+                    case 'D':
+                        runningGame.LosePoint(runningGame.playerTwo);
+                        break;
                     default:
                     break;
                 }

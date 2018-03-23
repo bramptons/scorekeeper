@@ -44,12 +44,15 @@ namespace scorekeeper
         
         public void LosePoint(string lost)
         {
+            string loser = "{0} loses a point unlucky";
             if(lost == playerOne)
             {
                 playerOneScore--;
+                Console.WriteLine(string.Format(loser, playerOne));
             }
             else{
                 playerTwoScore--;
+                Console.WriteLine(string.Format(loser, playerTwo));
             }
         }
         private void ClearPoints()
@@ -89,18 +92,7 @@ namespace scorekeeper
                     Console.WriteLine(playerTwo + "Wins!");
                 }                
             }            
-        }
-        public void LosePoint(string lose)
-        {
-            if(lose == playerOne)
-            {
-                playerOneScore--;
-            }
-            else{
-                playerTwoScore--;
-            }
-        }
-
+        }        
         public void AddLeaderboard()
         {
             //write to cloud
