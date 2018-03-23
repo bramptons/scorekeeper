@@ -54,7 +54,7 @@ namespace scorekeeper
         }
         private void ClearPoints()
         {
-            string winner = "{0} Wins with {1} to {2}, better luck neXt time {3}";
+            string winner = "{0} Wins with {1} to {2}, better luck next time {3}";
 
             if(clrPoints)
             {
