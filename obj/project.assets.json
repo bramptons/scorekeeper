@@ -664,27 +664,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\abesp\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\Abraham.Glover\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abesp\\Source\\Repos\\scorekeeper\\scorekeeper.csproj",
+      "projectUniqueName": "C:\\Users\\Abraham.Glover\\source\\repos\\scorekeeper\\scorekeeper.csproj",
       "projectName": "scorekeeper",
-      "projectPath": "C:\\Users\\abesp\\Source\\Repos\\scorekeeper\\scorekeeper.csproj",
-      "packagesPath": "C:\\Users\\abesp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abesp\\Source\\Repos\\scorekeeper\\obj\\",
+      "projectPath": "C:\\Users\\Abraham.Glover\\source\\repos\\scorekeeper\\scorekeeper.csproj",
+      "packagesPath": "C:\\Users\\Abraham.Glover\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Abraham.Glover\\source\\repos\\scorekeeper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\abesp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\Abraham.Glover\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
