@@ -87,9 +87,9 @@ namespace scorekeeper
                 {
                     status = true;
                     if(playerOneScore == winningScore)
-                    Console.WriteLine(playerOne + "Wins!");
+                    Console.WriteLine(playerOne + " Wins!");
                     else
-                    Console.WriteLine(playerTwo + "Wins!");
+                    Console.WriteLine(playerTwo + " Wins!");
                 }                
             }            
         }        
